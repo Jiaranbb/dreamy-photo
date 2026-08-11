@@ -14,6 +14,8 @@
 
 `dreamy-photo` is an AI Skill that quickly turns an existing photo into a dreamy, cinematic, or long-exposure-style edit. After the user supplies a photo, the AI identifies its subject, applies directional motion, optical bloom, color reconstruction, and film texture, preserves authentic subject details from the source, and returns the finished image.
 
+Its core capability is turning an ordinary photograph into a layered art poster: it preserves the subject, stretches background elements into directional motion trails, and builds a cinematic large-format look without blurring the entire frame or sacrificing defining actions, structures, and materials.
+
 > Send a photo and say “Make it dreamy”; the AI edits it and returns the image.
 
 It is for Codex, OpenClaw, and other image-capable Agent users who want stronger atmosphere in travel, portrait, night-city, landscape, architecture, or still-life photographs without sacrificing identity, skin tone, key structures, or important relationships from the source.
@@ -61,6 +63,19 @@ After installation, restart or refresh the Agent as required so the new Skill be
 - **Automatic composition and color direction** selects framing and palette from the subject axis, source light, and native colors to build atmosphere instead of forcing one fixed grade.
 - **Layered motion depth** separates foreground sweeps, midground trails, and background light-color flow while preserving a clear subject island, so the entire image is not blurred uniformly.
 - **Portrait-specific protection** locks source-relative skin brightness, undertone, apparent age, and softness for faces, hands, and visible skin, preventing darker, rougher, or older-looking skin after the edit.
+
+## Six built-in visual mechanisms
+
+The Skill selects one primary mechanism and no more than one supporting mechanism from materials that actually exist in the source, such as people, flowers, glass, practical lights, viewpoint, or motion-sensitive objects. It does not invent missing elements merely to force a preset look.
+
+| Mechanism | Name | Best source conditions |
+|---|---|---|
+| `crowd-drift` | Crowd Drift | People, public passages, walkways, traffic, or repeated lights that support long-exposure depth |
+| `floral-diffusion` | Floral Diffusion | Existing flowers, foliage, or plants that can become a soft foreground diffusion layer |
+| `glass-memory` | Glass Memory | Existing glass, windows, mirrors, or credible reflections that support layered memory-like echoes |
+| `backlit-halation` | Backlit Halation | Backlight, light through foliage, bright sky openings, or practical fixtures that support bloom and light leakage |
+| `low-angle-color-field` | Low-Angle Color Field | A low viewpoint with a large sky, wall, or color plane that can form a poster-like spatial field |
+| `passing-gesture` | Passing Gesture | Hair, fabric, hands, paper, or foliage that can create a directional passing sweep |
 
 ## Use it like this
 
