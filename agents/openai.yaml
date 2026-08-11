@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dreamy Photo"
+  short_description: "Dreamify existing photos with cinematic motion haze"
+  default_prompt: "Use $dreamy-photo to make this photo feel dreamy and return the finished image."
