@@ -14,8 +14,6 @@
 
 `dreamy-photo` is an AI Skill that quickly turns an existing photo into a dreamy, cinematic, or long-exposure-style edit. After the user supplies a photo, the AI identifies its subject, applies directional motion, optical bloom, color reconstruction, and film texture, preserves authentic subject details from the source, and returns the finished image.
 
-Its core capability is turning an ordinary photograph into a layered art poster: it preserves the subject, stretches background elements into directional motion trails, and builds a cinematic large-format look without blurring the entire frame or sacrificing defining actions, structures, and materials.
-
 > Send a photo and say “Make it dreamy”; the AI edits it and returns the image.
 
 It is for Codex, OpenClaw, and other image-capable Agent users who want stronger atmosphere in travel, portrait, night-city, landscape, architecture, or still-life photographs without sacrificing identity, skin tone, key structures, or important relationships from the source.

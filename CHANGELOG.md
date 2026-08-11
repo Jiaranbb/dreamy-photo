@@ -2,7 +2,6 @@
 
 ## Unreleased
 
-- Clarified the core art-poster positioning in the public introduction.
 - Documented the six signature visual mechanisms in both Chinese and English READMEs.
 
 ## 0.1.0 — 2026-08-11
